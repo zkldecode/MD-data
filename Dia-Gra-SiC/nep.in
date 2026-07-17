@@ -1,0 +1,18 @@
+version         4
+cutoff          8.0 4.0
+n_max           4 4
+basis_size      8 8
+l_max           4 2 0
+neuron          30
+
+lambda_e        1.0
+lambda_f        1.0
+lambda_v        0.1
+lambda_shear    1.0
+force_delta     0.0
+
+batch           1000 0
+population      50
+generation      100000
+initial_para    1.0
+sigma0          0.1
